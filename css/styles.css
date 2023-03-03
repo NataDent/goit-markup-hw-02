@@ -6,4 +6,12 @@ body {
   line-height: 24px;
   color: #434455;
 }
-/* Header */
+.link {
+  text-decoration: none;
+}
+list {
+  list-style: none;
+}
+/*------------- HEADER------------ */
+
+/*------------- HERO------------ */
