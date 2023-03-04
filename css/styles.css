@@ -153,7 +153,9 @@ color: #2E2F42;
 .footer{
   background-color: #2E2F42;
 }
-.footer-logo {font-family: 'Raleway';
+.footer-logo {
+  color: var(--brand-color-light) ; 
+  font-family: 'Raleway';
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
