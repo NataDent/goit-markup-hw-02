@@ -57,7 +57,13 @@ color: #2E2F42;
 
 }
 .address-item {
-
+text-decoration: none;
+font-family: "Roboto", sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+color: #434455;
 }
 
 /*------------- HERO------------ */
