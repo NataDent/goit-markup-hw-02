@@ -1,5 +1,7 @@
 :root{
   --brand-color-light: #4D5AE5;
+  --main-btn-color: #F4F4FD;
+  --second-btn-color:#404BBF;
 }
 
 body {
@@ -19,8 +21,7 @@ body {
   list-style: none;
 }
 /**------------- HEADER------------ */
-.header {
-}
+
 .header-logo {
   color: var(--brand-color-light) ;
   font-family: "Raleway", sans-serif;
@@ -32,8 +33,8 @@ body {
   align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #4d5ae5;
 }
+
 .half-header-logo{
 font-family: 'Raleway', sans-serif;
 font-style: normal;
@@ -93,15 +94,12 @@ color: #434455;
   color: #FFFFFF; 
 }
 /**------------- FEATURES------------ */
-.features {
+
+.features-title
+.scrolls-title{
+ visibility: hidden;
 }
-.features-title {
-  text-indent: 100%;
-  white-space: nowrap;
-  overflow: hidden;
-}
-.features-list {
-}
+
 
 .features-list-item {
 }
@@ -168,7 +166,7 @@ color: #2E2F42;
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
-  line-height: 21px;
+  line-height: 1.67;
   display: flex;
   align-items: center;
   letter-spacing: 0.03em;
@@ -176,11 +174,11 @@ color: #2E2F42;
   color: #4D5AE5;
 }
 .half-footer-logo{
-  font-family: 'Raleway';
+  font-family: 'Raleway'; san-serif;
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
-  line-height: 21px;
+  line-height:1.67;
   display: flex;
   align-items: center;
   letter-spacing: 0.03em;
@@ -189,4 +187,48 @@ color: #2E2F42;
 }
 .footer-text {
   color: #E7E9FC;
+
+ /**------------- SCROLLS------------ */
+
+.scrolls {
+}
+.scrolls-title {
+}
+.scrolls-list {
+}
+.scrolls-item {
+}
+.scrolls-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.04em; 
+  color: #4D5AE5; 
+}
+.scrolls-name:is(:hover,:focus){
+ color:var(--main-btn-color: #F4F4FD) ;
+}
+
+.scrolls-btn:is(:hover,:focus) {
+  background-color: #F4F4FD;;
+}
+
+.row-1 {
+}
+.row-list {
+}
+.list {
+}
+.row-item {
+}
+.row-item-title {
+}
+.row-item-text {
+}
+.row-2 {
+}
+.row-3 {
 }
