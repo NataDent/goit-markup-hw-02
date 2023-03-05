@@ -1,7 +1,7 @@
-:root{
-  --brand-color-light: #4D5AE5;
-  --main-btn-color: #F4F4FD;
-  --second-btn-color:#404BBF;
+ :root {
+--brand-color-light: #4D5AE5;
+--main-btn-color: #F4F4FD;
+--second-btn-color:#404BBF;
 }
 
 body {
@@ -225,8 +225,14 @@ color: #2E2F42;
 .row-item {
 }
 .row-item-title {
+font-weight: 500;
+font-size: 20px;
+line-height:1.2;
+letter-spacing: 0.02em;
+color: #2E2F42;
 }
 .row-item-text {
+
 }
 .row-2 {
 }
