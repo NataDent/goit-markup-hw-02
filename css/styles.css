@@ -62,14 +62,13 @@ color: #2E2F42;
 .address {
   font-style: normal;
 }
-.address-mail:is(:hover, :focus){
+.address-item-contact:is(:hover, :focus){
   color: #404bbf
 }
-.address-tel:is(:hover, :focus){
-  color: #404bbf  
-}
-.address-mail
-.address-tel {
+ 
+
+
+.address-item-contact{
 text-decoration: none;
 font-family: inherit;
 font-style: normal;
@@ -216,6 +215,7 @@ color: #2E2F42;
 .scrolls-btn {
 color: var(--main-btn-color);
 background-color: var(--main-background-color) ;
+font-family: inherit;
 font-style: normal;
 font-weight:500;
 font-size: 16px;
