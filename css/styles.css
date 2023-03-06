@@ -217,7 +217,7 @@ color: #2E2F42;
 background-color: #F4F4FD;
 color:var(--main-btn-color);
 background-color: var(--second-btn-color);
-font-style: inherit, "Roboto", sans-serif;
+font-style: inherit; 
 font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
