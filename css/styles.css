@@ -96,12 +96,10 @@ color: #434455;
   background-color:#4D5AE5;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
-  font-style: inherit;
+  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  display: flex;
-  align-items: center;
   letter-spacing: 0.04em;
   color:#ffffff;
   cursor: pointer;
@@ -155,7 +153,7 @@ line-height: 1.11;
 text-align: center;
 letter-spacing: 0.02em;
 text-transform: capitalize;
-color: #2E2F42;
+color: #2e2f42;
 }
 .team-list {
 }
@@ -165,12 +163,11 @@ color: #2E2F42;
 font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
-text-align: center;
 letter-spacing: 0.02em;
 color: #2E2F42;
 }
 .team-member-prof {
-  letter-spacing: 0.02em;
+ letter-spacing: 0.02em;
 }
 /**------------- FOOTER------------ */
 .footer{
@@ -217,11 +214,10 @@ color: #2E2F42;
 }
 
 .scrolls-btn {
-background-color: #F4F4FD;
-color:var(--main-btn-color);
-background-color: var(--second-btn-color);
-font-style: inherit; 
-font-weight: 500;
+color: var(--main-btn-color);
+background-color: var(--main-background-color) ;
+font-style: normal;
+font-weight:500;
 font-size: 16px;
 line-height: 1.5;
 display: flex;
