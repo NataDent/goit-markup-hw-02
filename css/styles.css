@@ -57,8 +57,16 @@ letter-spacing: 0.02em;
 color: #2E2F42;
 }
 .header-link:is(:hover,:focus)
-{
-
+{ color: #404bbf
+}
+.address {
+  font-style: normal;
+}
+.address-mail:is(:hover, :focus){
+  color: #404bbf
+}
+.address-tel:is(:hover, :focus) {
+  color: #404bbf 
 }
 .address-item {
 text-decoration: none;
@@ -67,6 +75,7 @@ font-style: normal;
 font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
+letter-spacing: 0.02em
 color: #434455;
 }
 .address-tel{
@@ -87,6 +96,7 @@ color: #434455;
   background: var(--main-background-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
+  font-style: inherit; "Roboto", sans-serif
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -115,6 +125,7 @@ color: #434455;
   color: #2E2F42;
 }
 .features-text {
+  letter-spacing: 0.02em; 
 }
 /**------------- WORK------------ */
 .work {
@@ -158,6 +169,7 @@ letter-spacing: 0.02em;
 color: #2E2F42;
 }
 .team-member-prof {
+  letter-spacing: 0.02em;
 }
 /**------------- FOOTER------------ */
 .footer{
@@ -169,7 +181,7 @@ color: #2E2F42;
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
-  line-height: 1.67;
+  line-height: 1.17;
   display: flex;
   align-items: center;
   letter-spacing: 0.03em;
@@ -181,7 +193,7 @@ color: #2E2F42;
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
-  line-height:1.67;
+  line-height:1.17;
   display: flex;
   align-items: center;
   letter-spacing: 0.03em;
@@ -207,6 +219,7 @@ color: #2E2F42;
 background-color: #F4F4FD;
 color:var(--main-btn-color);
 background-color: var(--second-btn-color);
+font-style: inherit; 
 font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
@@ -214,14 +227,11 @@ display: flex;
 align-items: center;
 text-align: center;
 letter-spacing: 0.04em;
-color: #4D5AE5;
+cursor: pointer;
 }
 .scrolls-btn:is(:hover, :focus){
   color: var(--second-btn-color);
   background-color: var(--second-background-color);
-}
-
-.row-1 {
 }
 .row-list {
 }
@@ -237,9 +247,5 @@ letter-spacing: 0.02em;
 color: #2E2F42;
 }
 .row-item-text {
-
-}
-.row-2 {
-}
-.row-3 {
+letter-spacing: 0.02em;
 }
