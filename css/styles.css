@@ -65,10 +65,11 @@ color: #2E2F42;
 .address-mail:is(:hover, :focus){
   color: #404bbf
 }
-.address-tel:is(:hover, :focus) {
-  color: #404bbf 
+.address-tel:is(:hover, :focus){
+  color: #404bbf  
 }
-.contakts {
+.address-mail
+.address-tel {
 text-decoration: none;
 font-family: inherit;
 font-style: normal;
@@ -78,6 +79,7 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 color: #434455;
 }
+
 
 /**------------- HERO------------ */
 .hero {
