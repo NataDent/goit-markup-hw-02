@@ -68,7 +68,7 @@ color: #2E2F42;
 .address-tel:is(:hover, :focus) {
   color: #404bbf 
 }
-.address-mail  {
+.contakts {
 text-decoration: none;
 font-family: inherit;
 font-style: normal;
@@ -78,16 +78,7 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 color: #434455;
 }
-.address-tel{
-  text-decoration: none;
-  font-family: inherit;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #434455;  
-}
+
 /**------------- HERO------------ */
 .hero {
  background-color: #2E2F42; 
@@ -103,7 +94,7 @@ color: #434455;
   background: var(--main-background-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
-  font-style: inherit, "Roboto", sans-serif;
+  font-style: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
